@@ -1,0 +1,505 @@
+
+
+/***********************************************/
+@media (min-width: 1500px)
+{
+    .vlt-menu-burger.js-offcanvas-menu-open
+    {
+        display: block;
+    }
+}
+
+
+/***********************************************/
+@media (min-width: 1200px)
+{
+    .container
+    {
+        max-width: unset;
+
+        padding-left: 90px;
+
+        padding-right: 90px;
+    }
+}
+
+
+/***********************************************/
+@media (min-width: 1200px) and (max-width: 1440px){
+
+    html{
+
+        font-size: 14px;
+    }
+}
+
+/***********************************************/
+@media (min-width: 992px) and (max-width: 1199px){
+
+    html{
+
+        font-size: 14px;
+    }
+
+    .fntsize1big{
+
+        font-size: 3.5rem !important;
+    }
+
+    /**/
+
+    section.counter .counter-inn{
+
+        padding: 4rem 4rem;
+    }
+
+}
+
+
+
+/***********************************************/
+@media (min-width: 768px) and (max-width: 991px){
+
+    html{
+
+        font-size: 14px;
+    }
+
+    .fntsize1 {
+
+        font-size: 2rem !important;
+    }
+
+    .fntsize1big{
+
+        font-size: 3rem !important;
+    }
+
+    .qlogo-outer{
+
+        margin-bottom: 3rem;
+    }
+
+    .qlogo-outer img{
+
+        max-width: 4rem;
+    }
+
+    .story-pge .vlt-project-title{
+
+        margin-top: 2rem;
+    }
+
+    /**/
+
+
+    section.counter .counter-inn{
+
+        padding: 4rem 4rem;
+    }
+
+    .storypge-story .vlt-gap-70{
+
+        display: none;
+    }
+ 
+    .storypge-story .story-lft .poabslte{
+
+        position: relative;
+    }
+
+    .storypge-story .story-lft .porltve{
+
+        position: absolute;
+    }
+
+    .storypge-story figure{
+
+        position: relative;
+
+        float: left;
+
+        width: 100%;
+
+        left: unset;
+
+        top: unset;
+
+        transform: unset;
+
+        height: 400px;
+
+        max-height: 100%;
+
+        background-position: 100px;
+    }
+
+    .storypge-story .vlt-project-excerpt{
+
+        max-width: unset;
+    }
+
+    /**/
+
+    section.counter li .counter-value,
+    section.counter li span{
+
+        font-size: 3rem;
+
+        line-height: 3rem;
+    }
+
+    section.counter li p{
+
+        font-size: 1.5rem;
+    }
+
+    /**/
+
+    .taglinesec .qtag-outer img{
+
+        max-width: 7rem;
+    }
+
+    /**/
+
+    .clients-sec .clients-pge .notinhome p{
+
+        max-width: 100%;
+    }
+
+    /**/
+
+    .case-pge .col-lg-4:nth-child(3n -1) .ech-case{
+
+        margin-top: 5rem;
+    }
+
+    .case-pge .col-md-4 .ech-case{
+
+        padding: 0px;
+    }
+
+    /**/
+
+    .vlt-is--portfoliopage .vlt-main{
+
+        background-size: 37%;
+    }
+
+    .portfolio-pge .lftcntnt{
+
+        padding-right: 0px;
+    }
+}
+
+
+/*********************************************/
+@media (min-width: 0px) and (max-width: 767px){
+
+    html{
+
+        font-size: 13px;
+    }
+
+    .fntsize1 {
+
+        font-size: 2rem !important;
+    }
+
+    .fntsize1big{
+
+        font-size: 3rem !important;
+    }
+
+    .qlogo-outer{
+
+        margin-bottom: 3rem;
+    }
+
+    .qlogo-outer img{
+
+        max-width: 4rem;
+    }
+
+    .story-pge .vlt-project-title{
+
+        margin-top: 2rem;
+    }
+
+    .whatwedo-pge .wedo-carousel .item h5{
+
+        height: 7.5rem;
+    }
+
+    .whatwedo-pge .wedo-carousel .item p{
+
+        height: 8.5rem;
+    }
+
+    /**/
+
+
+    section.counter .counter-inn{
+
+        padding: 3rem 3rem;
+    }
+
+    .storypge-story .vlt-gap-70{
+
+        display: none;
+    }
+ 
+    .storypge-story .story-lft .poabslte{
+
+        position: relative;
+    }
+
+    .storypge-story .story-lft .porltve{
+
+        position: absolute;
+    }
+
+    .storypge-story figure{
+
+        position: relative;
+
+        float: left;
+
+        width: 100%;
+
+        left: unset;
+
+        top: unset;
+
+        transform: unset;
+
+        height: 400px;
+
+        max-height: 100%;
+
+        background-position: 100px;
+    }
+
+    .storypge-story .vlt-project-excerpt{
+
+        max-width: unset;
+    }
+
+    /**/
+
+    section.counter li .counter-value,
+    section.counter li span{
+
+        font-size: 3rem;
+
+        line-height: 3rem;
+    }
+
+    section.counter li p{
+
+        font-size: 1.5rem;
+    }
+
+    /**/
+
+    .taglinesec .qtag-outer img{
+
+        max-width: 7rem;
+    }
+
+    /**/
+
+    .clients-sec .clients-pge .notinhome p{
+
+        max-width: 100%;
+    }
+
+    /**/
+
+    section.industry .indstr-title, section.industry .indstr-title div{
+
+        height: unset;
+
+        text-align: center;
+    }
+
+    section.industry .indstr-title h2{
+
+        position: relative;
+
+        left: unset;
+
+        top: unset;
+
+        transform: none;
+
+        margin-bottom: 2rem;
+    }
+
+    section.industry ul li{
+
+        text-align: center;
+    }
+
+    /**/
+
+    .blogs-pge .ech-blog figure{
+
+        position: relative;
+
+        float: left;
+
+        width: 100%;
+
+        padding-top: 60%;
+
+        top: unset;
+
+        left: unset;
+    }
+
+    .blogs-pge .ech-blog .blgcntnts{
+
+        width: 100%;
+
+        margin-top: 0rem;
+    }
+
+    /**/
+
+    .case-pge .col-lg-4:nth-child(3n -1) .ech-case{
+
+        margin-top: 0rem;
+    }
+
+    .case-pge .col-sm-6:nth-child(2n) .ech-case{
+
+        margin-top: 5rem;
+    }
+
+    .case-pge .ech-case{
+
+        padding: 0px;
+    }
+
+    /**/
+
+    .vlt-is--portfoliopage .vlt-main{
+
+        background-size: 45%;
+    }
+
+    .portfolio-pge .lftcntnt{
+
+        padding-right: 0px;
+    }
+
+    .portfolio-pge .rgtcntnt h3{
+
+        font-size: 2.5rem;
+    }
+
+
+}
+
+
+/*********************************************/
+@media (min-width: 0px) and (max-width: 575px){
+
+    html{
+
+        font-size: 12px;
+    }
+
+    .vlt-section__content{
+
+        padding: 7.5rem 0rem !important;
+    }
+
+    .whatwedo-pge .wedo-carousel{
+
+        margin-top: 3rem;
+    }
+
+    .whatwedo-pge .owl-nav{
+
+        top: -3.5rem;
+    }
+
+    /**/
+
+    section.counter ul{
+
+        display: block;
+    }
+
+    section.counter li{
+
+        width: 100%;
+
+        text-align: center;
+
+        margin-bottom: 1.5rem;
+    }
+
+    section.counter li .counter-value, 
+    section.counter li span{
+
+        display: inline;
+
+        float: none;
+    }
+
+    section.counter li p{
+
+        text-align: center;
+    }
+
+    /**/
+
+    .case-pge .col-lg-4:nth-child(3n -1) .ech-case{
+
+        margin-top: 0rem;
+    }
+
+    .case-pge .ech-case{
+
+        max-width: 300px;
+
+        padding: 0px;
+
+        margin: 0 auto;
+
+        float: none;
+
+        margin-bottom: 3rem;
+    }
+
+    /**/
+
+    .vlt-is--portfoliopage .vlt-main{
+
+        background-size: 150%;
+    }
+
+}
+
+
+/*********************************************/
+@media (min-width: 0px) and (max-width: 470px){
+
+    .echcase-pge .uimage .figurearea figure.mobmock{
+
+        border-radius: 10px;
+
+        border: 2px solid #fff;
+    }
+
+    /**/
+
+    .vlt-is--portfoliopage .vlt-main{
+
+        background-size: 175%;
+    }
+}
