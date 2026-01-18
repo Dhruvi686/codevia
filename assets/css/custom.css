@@ -27,6 +27,26 @@ body {
   padding: 7.5rem 4rem !important;
 }
 
+.vlt-section:not(.contact-pge) .vlt-section__ken-burn-background img,
+.vlt-section:not(.contact-pge) .vlt-section__projects-background {
+  content: url("../img/elegant-blue-background-business-presentation.jpg");
+  background-image: url("../img/elegant-blue-background-business-presentation.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.vlt-navbar-background {
+  background-color: #ffffff !important;
+}
+
+.vlt-section:not(.contact-pge) .video-bg {
+  display: none;
+}
+
+.vlt-section:not(.contact-pge) .vlt-section__ken-burn-background {
+  opacity: 1 !important;
+}
+
 .vlt-menu-burger svg line:first-child {
   display: none;
 }
@@ -43,6 +63,8 @@ body {
   /*font-size: 1.1rem;*/
 
   max-width: unset;
+
+  color: #fff;
 }
 
 .vlt-offcanvas-menu__navigation .sf-menu > li > a {
@@ -51,8 +73,20 @@ body {
   font-family: "Expletus Sans", cursive;
 }
 
+.vlt-navbar .vlt-navbar-inner {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+
+@media only screen and (min-width: 1200px) {
+  .vlt-navbar .vlt-navbar-inner {
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+  }
+}
+
 .vlt-navbar .vlt-navbar-logo img {
-  height: 2.5rem;
+  height: 3rem;
 }
 
 .home-pge video.video-bg {
@@ -166,6 +200,11 @@ body {
   max-width: 90%;
 }
 
+.story-pge .vlt-project-excerpt p {
+  text-align: justify;
+  line-height: 1.6;
+}
+
 .story-pge .vlt-slider-controls {
   float: left;
 }
@@ -273,6 +312,8 @@ body {
   flex-direction: column;
 
   box-sizing: border-box;
+
+  min-height: 550px;
 }
 
 .whatwedo-pge .wedo-carousel figure {
@@ -653,6 +694,11 @@ body {
   height: 100%;
 }
 
+.pp-viewing-Contact .side-icons span.linkedin-icon,
+.pp-viewing-Contact .side-icons span.instagram-icon {
+  filter: none;
+}
+
 .contact-pge .lft-side ul {
   padding-left: 0px;
 }
@@ -672,7 +718,7 @@ body {
 .contact-pge .lft-side ul li hr {
   margin: 0px !important;
 
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .contact-pge .lft-side ul li span {
@@ -695,6 +741,10 @@ body {
   margin-right: 1rem;
 }
 
+.contact-pge p {
+  color: #fff;
+}
+
 .contact-pge .lft-side ul li p,
 .contact-pge .lft-side ul li a {
   float: left;
@@ -703,7 +753,38 @@ body {
 
   line-height: 2rem;
 
-  color: #333;
+  color: #fff;
+}
+
+.contact-pge h3,
+.contact-pge h4 {
+  color: #fff;
+}
+
+.contact-pge .vlt-contact-form input,
+.contact-pge .vlt-contact-form textarea {
+  color: #fff !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.contact-pge .vlt-contact-form input::-webkit-input-placeholder,
+.contact-pge .vlt-contact-form textarea::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.contact-pge .vlt-contact-form input::-moz-placeholder,
+.contact-pge .vlt-contact-form textarea::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.contact-pge .vlt-contact-form input:-ms-input-placeholder,
+.contact-pge .vlt-contact-form textarea:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.contact-pge .vlt-contact-form input:-moz-placeholder,
+.contact-pge .vlt-contact-form textarea:-moz-placeholder {
+  color: rgba(255, 255, 255, 0.6) !important;
 }
 
 /*******/
@@ -723,6 +804,9 @@ body {
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
   align-items: flex-end;
+  background-image: url("../img/elegant-blue-background-business-presentation.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .fntsize1big {
